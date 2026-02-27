@@ -5,7 +5,7 @@
 
 set -e  # Exit on error
 
-echo "🔧 MSIH Oaths Website Setup"
+echo "🔧 MSIH Open Arbitration Website Setup"
 echo "=============================="
 
 # Check for required tools
@@ -17,7 +17,7 @@ find . -type f -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.md" |
 
 echo ""
 echo "📋 Next Steps:"
-echo "1. Create a GitHub repository named 'msih-oaths-website'"
+echo "1. Create a GitHub repository named 'msih-open-arbitration-website'"
 echo "2. Run the following commands:"
 echo ""
 echo "   # Initialize git"
@@ -26,7 +26,7 @@ echo "   git add ."
 echo "   git commit -m 'Initial commit: MSIH Open Arbitration website'"
 echo ""
 echo "   # Add remote (replace YOUR_USERNAME)"
-echo "   git remote add origin https://github.com/YOUR_USERNAME/msih-oaths-website.git"
+echo "   git remote add origin https://github.com/YOUR_USERNAME/msih-open-arbitration-website.git"
 echo "   git push -u origin main"
 echo ""
 echo "3. Enable GitHub Pages in repository settings"
@@ -38,7 +38,7 @@ echo "📚 Detailed instructions in SETUP_GUIDE.md"
 if [ ! -f "index.html" ]; then
     echo ""
     echo "⚠️  Warning: index.html not found in current directory"
-    echo "   Make sure you're in the msih-oaths-website directory"
+    echo "   Make sure you're in the msih-open-arbitration-website directory"
 fi
 
 echo ""

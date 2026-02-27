@@ -29,7 +29,7 @@ The Open Arbitration Database is a comprehensive platform that allows consumers 
 ## Project Structure
 
 ```
-msih-oaths-website/
+msih-open-arbitration-website/
 ├── index.html          # Main page
 ├── css/
 │   └── style.css      # Main styles
@@ -46,8 +46,8 @@ msih-oaths-website/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/msih-oaths-website.git
-   cd msih-oaths-website
+   git clone https://github.com/yourusername/msih-open-arbitration-website.git
+   cd msih-open-arbitration-website
    ```
 
 2. Open `index.html` in your browser or use a local server:
@@ -67,7 +67,7 @@ This site is configured for GitHub Pages. To deploy:
 
 1. Push to the `main` branch
 2. GitHub Pages will automatically deploy from the root directory
-3. Site will be available at: `https://yourusername.github.io/msih-oaths-website`
+3. Site will be available at: `https://yourusername.github.io/msih-open-arbitration-website`
 
 ## Development Workflow
 
@@ -85,7 +85,7 @@ This site is configured for GitHub Pages. To deploy:
 
 ## Future Enhancements
 
-See [GitHub Issues](https://github.com/yourusername/msih-oaths-website/issues) for planned features:
+See [GitHub Issues](https://github.com/yourusername/msih-open-arbitration-website/issues) for planned features:
 
 1. Backend API for case submissions
 2. Real database integration

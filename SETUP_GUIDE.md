@@ -4,7 +4,7 @@
 
 1. Go to [GitHub](https://github.com) and log in
 2. Click the "+" icon in the top right → "New repository"
-3. Repository name: `msih-oaths-website`
+3. Repository name: `msih-open-arbitration-website`
 4. Description: "MSIH Open Arbitration Database website"
 5. Choose: **Public** (or Private if preferred)
 6. **DO NOT** initialize with README, .gitignore, or license
@@ -14,7 +14,7 @@
 
 ```bash
 # Navigate to the project directory
-cd ~/.openclaw/workspace/msih-oaths-website
+cd ~/.openclaw/workspace/msih-open-arbitration-website
 
 # Initialize git
 git init
@@ -26,7 +26,7 @@ git add .
 git commit -m "Initial commit: MSIH Open Arbitration website"
 
 # Add remote repository
-git remote add origin https://github.com/YOUR_USERNAME/msih-oaths-website.git
+git remote add origin https://github.com/YOUR_USERNAME/msih-open-arbitration-website.git
 
 # Push to GitHub
 git push -u origin main
@@ -39,7 +39,7 @@ git push -u origin main
 3. Under "Source", select "Deploy from a branch"
 4. Branch: `main` → `/` (root)
 5. Click "Save"
-6. Your site will be available at: `https://YOUR_USERNAME.github.io/msih-oaths-website/`
+6. Your site will be available at: `https://YOUR_USERNAME.github.io/msih-open-arbitration-website/`
 
 ## Step 4: Create Initial GitHub Issues
 

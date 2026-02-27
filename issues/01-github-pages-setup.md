@@ -7,7 +7,7 @@ Configure GitHub Pages for the MSIH Oaths website to make it publicly accessible
 - [ ] Repository created on GitHub
 - [ ] Code pushed to main branch
 - [ ] GitHub Pages enabled in repository settings
-- [ ] Site accessible at `https://USERNAME.github.io/msih-oaths-website/`
+- [ ] Site accessible at `https://USERNAME.github.io/msih-open-arbitration-website/`
 - [ ] Custom domain configured (optional for now)
 
 ## Technical Details
