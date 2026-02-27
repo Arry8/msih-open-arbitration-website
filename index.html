@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Arbitration Database - MSIH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="/">
+                        <i class="fas fa-balance-scale"></i>
+                        <span>MSIH Open Arbitration</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#database">Database</a></li>
+                    <li><a href="#contribute">Contribute</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="cta-button">
+                    <a href="#contribute" class="btn-primary">Share Your Case</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Consumer Arbitration Database</h1>
+                <p class="subtitle">A comprehensive platform that allows consumers to document their arbitration experiences, share case details, and access aggregated data about corporate dispute patterns.</p>
+                <div class="hero-actions">
+                    <a href="#database" class="btn-primary">Explore Database</a>
+                    <a href="#contribute" class="btn-secondary">Share Your Experience</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Open Arbitration</h2>
+                <p>Our tools help consumers understand arbitration processes, track outcomes, and build collective knowledge to strengthen future cases against corporate legal teams.</p>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-database"></i>
+                        <h3>Case Database</h3>
+                        <p>Searchable archive of arbitration cases with detailed outcomes and patterns.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>Consumer Protection</h3>
+                        <p>Empowering consumers with knowledge to navigate arbitration proceedings.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Analytics & Insights</h3>
+                        <p>Data-driven insights into corporate dispute resolution patterns.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Community Support</h3>
+                        <p>Connect with others who have faced similar arbitration challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="database" class="section dark">
+            <div class="container">
+                <h2>Explore the Database</h2>
+                <p>Browse anonymized arbitration cases to understand outcomes, procedures, and corporate patterns.</p>
+                <div class="database-stats">
+                    <div class="stat">
+                        <span class="stat-number">5,000+</span>
+                        <span class="stat-label">Annual Goal</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">$50</span>
+                        <span class="stat-label">Per Case Documented</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Nationwide</span>
+                        <span class="stat-label">Coverage</span>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search arbitration cases...">
+                    <button><i class="fas fa-search"></i> Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contribute" class="section">
+            <div class="container">
+                <h2>Contribute Your Case</h2>
+                <p>Help build transparency in arbitration by sharing your experience. All data is anonymized to protect your privacy.</p>
+                <form class="contribution-form">
+                    <div class="form-group">
+                        <label for="case-type">Case Type</label>
+                        <select id="case-type">
+                            <option value="">Select case type</option>
+                            <option value="consumer">Consumer Dispute</option>
+                            <option value="employment">Employment</option>
+                            <option value="financial">Financial Services</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="outcome">Outcome</label>
+                        <select id="outcome">
+                            <option value="">Select outcome</option>
+                            <option value="favorable">Favorable to Consumer</option>
+                            <option value="unfavorable">Unfavorable to Consumer</option>
+                            <option value="settled">Settled</option>
+                            <option value="dismissed">Dismissed</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="details">Case Details (Optional)</label>
+                        <textarea id="details" placeholder="Brief description of your arbitration experience..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Submit Anonymously</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="resources" class="section">
+            <div class="container">
+                <h2>Resources</h2>
+                <div class="resources-grid">
+                    <div class="resource">
+                        <h3><i class="fas fa-book"></i> Arbitration Guide</h3>
+                        <p>Learn about arbitration processes and your rights as a consumer.</p>
+                    </div>
+                    <div class="resource">
+                        <h3><i class="fas fa-file-contract"></i> Sample Documents</h3>
+                        <p>Access templates for arbitration requests and responses.</p>
+                    </div>
+                    <div class="resource">
+                        <h3><i class="fas fa-question-circle"></i> FAQ</h3>
+                        <p>Common questions about arbitration and consumer rights.</p>
+                    </div>
+                    <div class="resource">
+                        <h3><i class="fas fa-gavel"></i> Legal Resources</h3>
+                        <p>Connections to legal aid organizations and consumer advocates.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MSIH Open Arbitration</h3>
+                    <p>Transforming arbitration from a black box into an open system where fairness and accountability thrive.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> arbitration@msih.org</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="https://www.msih.org">MSIH Main Site</a></li>
+                        <li><a href="https://www.msih.org/donate">Donate</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MSIH Open Arbitration. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
